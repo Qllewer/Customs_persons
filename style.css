@@ -1,0 +1,109 @@
+.page{
+    width: 1200px;
+    height: 100%;
+    border: solid black 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.page__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__setting{
+    width: 400px;
+    height: 100%;
+}
+
+.container__person{
+    margin-top: 50px;
+    position: relative;
+}
+
+.container__setting-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.container__setting-item{
+    display: flex;
+    width: 400px;
+    height: 120px;
+    overflow-x: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.setting-item__img{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.person__body{
+    cursor: auto;
+}
+.container__person-img{
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+::-webkit-scrollbar{
+    background-color: #B4B3B3;
+    height: 10px;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1445B6 ;
+    border-radius: 30px;
+}
+
+.person__block-hair{
+    position: absolute;
+    top: 71px;
+}
+
+.person__hair{
+    width: 325px;
+    height: 325px;
+}
+
+.person__block-eyes {
+    position: absolute;
+    top: 140px;
+    left: 103px;
+}
+
+.person__eyes{
+    width: 122px;
+    height: 110px;
+}
+
+.person__block-clothes{
+    position: absolute;
+    top: 262px;
+    left: 48px;
+    z-index: 2;
+}
+
+.person__clothes{
+    width: 226px;
+    height: 165px;
+}
+
+.person__block-pant{
+    position: absolute;
+    top: 362px;
+    left: 110px;
+}
+
+.person__pant{
+    width: 105px;
+    height: 70px;
+}
